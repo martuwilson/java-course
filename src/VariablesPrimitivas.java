@@ -39,5 +39,6 @@ public class VariablesPrimitivas {
         //CUANDO USARLO?
         //1- Para Evitar escribir tipos largos o repetitivos: var lista = new ArrayList<String>(); en lugar de ==> ArrayList<String> lista = new ArrayList<String>();
         //2- Cuando el tipo es obvio por el contexto.var nombre = "Martín"; se entiende que es String
+
     }
 }
