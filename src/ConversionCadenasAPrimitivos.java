@@ -12,5 +12,10 @@ public class ConversionCadenasAPrimitivos {
         String logicoString = "true";
         boolean logicoBool = Boolean.parseBoolean(logicoString);
         System.out.println(logicoBool);
+
+        int otroNumeroInt = 200;
+        String otroNumeroString = Integer.toString(otroNumeroInt);
+
+        otroNumeroString = String.valueOf(otroNumeroInt + 10);
     }
 }
